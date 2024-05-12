@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    tools:context=".view.MainActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/movieImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/MovieImgPlaceholder" />
+
+    <TextView
+        android:id="@+id/movieTitleTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/movieImg"
+        android:padding="8dp"
+        android:text="@string/movieTitlePlaceholder"
+        android:textColor="?android:textColorSecondary"/>
+
+    <TextView
+        android:id="@+id/movieDescTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/movieTitleTv"
+        android:padding="8dp"
+        android:text="@string/movieDescPlaceholder"/>
+
+    <TextView
+        android:id="@+id/movieGenreTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/movieDescTv"
+        android:padding="8dp"
+        android:text="@string/genre_placeholder"/>
+
+
+    <Button
+        android:id="@+id/movieDateListBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/movieDescTv"
+        android:text="@string/VetitesBtn"
+        />
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

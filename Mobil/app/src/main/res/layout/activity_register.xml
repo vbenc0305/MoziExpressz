@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.RegisterActivity">
+
+    <EditText
+        android:id="@+id/registerNameEditText"
+        android:layout_width="289dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:autofillHints="name"
+        android:ems="10"
+        android:hint="@string/beluska"
+        android:inputType="text"
+        android:textColorHint="#78909C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <EditText
+        android:id="@+id/registerEmailEditText"
+        android:layout_width="296dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="@dimen/def_margin"
+        android:layout_marginTop="@dimen/def_margin"
+        android:autofillHints="emailAddress"
+        android:ems="10"
+        android:hint="@string/emailhint"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#78909C"
+        app:layout_constraintBottom_toTopOf="@+id/registerPasswordEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerNameEditText"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <EditText
+        android:id="@+id/registerPasswordEditText"
+        android:layout_width="293dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="@dimen/def_margin"
+        android:layout_marginTop="@dimen/def_margin"
+        android:autofillHints="password"
+        android:ems="10"
+        android:hint="@string/passTipp1"
+        android:inputType="textPassword"
+        android:textColorHint="#78909C"
+        app:layout_constraintBottom_toTopOf="@+id/registerPasswordAgainEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerEmailEditText" />
+
+    <EditText
+        android:id="@+id/registerPasswordAgainEditText"
+        android:layout_width="290dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="@dimen/def_margin"
+        android:layout_marginTop="20dp"
+        android:autofillHints="password"
+        android:ems="10"
+        android:hint="@string/passTipp2"
+        android:inputType="textPassword"
+        android:textColorHint="#78909C"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerPasswordEditText" />
+
+
+    <TextView
+        android:id="@+id/NevTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/def_margin"
+        android:layout_marginStart="@dimen/def_margin"
+        android:layout_marginBottom="@dimen/def_margin"
+        android:text="@string/nevReg"
+        app:layout_constraintBottom_toTopOf="@+id/registerNameEditText"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/EmailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/def_margin"
+        android:layout_marginBottom="@dimen/def_margin"
+        android:text="@string/EmailReg"
+        app:layout_constraintBottom_toTopOf="@+id/registerEmailEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerNameEditText" />
+
+    <TextView
+        android:id="@+id/PasswordTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/def_margin"
+        android:layout_marginTop="@dimen/def_margin"
+        android:layout_marginBottom="@dimen/def_margin"
+        android:text="@string/JelReg"
+        app:layout_constraintBottom_toTopOf="@+id/registerPasswordEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerEmailEditText" />
+
+    <TextView
+        android:id="@+id/PasswordAgainTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/def_margin"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/Jel2Reg"
+        app:layout_constraintBottom_toTopOf="@+id/registerPasswordAgainEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerPasswordEditText" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/def_margin"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerPasswordAgainEditText">
+
+        <Button
+            android:id="@+id/RegButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+
+            android:text="@string/cancel" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

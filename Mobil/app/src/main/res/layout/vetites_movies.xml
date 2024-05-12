@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    tools:context=".view.IdopontokActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/vetitesideje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/vetites_ideje"
+            android:textColor="?android:textColorSecondary" />
+
+
+
+        <TextView
+            android:id="@+id/szekekszama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vetitesideje"
+            android:padding="8dp"
+            android:text="@string/sz_kek_sz_ma"/>
+
+        <TextView
+            android:id="@+id/terem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/szekekszama"
+            android:padding="8dp"
+            android:text="@string/terem"/>
+
+
+        <Button
+            android:id="@+id/foglalasbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/terem"
+            android:text="@string/helyfoglalas"
+            />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

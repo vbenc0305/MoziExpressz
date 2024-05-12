@@ -1,0 +1,214 @@
+<resources>
+    <string name="app_name">MoziExpressz</string>
+    <string name="felh">Felhasználónév</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="password">Jelszó</string>
+    <string name="emailhint">valaki@example.com</string>
+    <string name="register">Regisztráció</string>
+    <string name="nevReg">Név:</string>
+    <string name="EmailReg">Email:</string>
+    <string name="JelReg">Jelszó:</string>
+    <string name="Jel2Reg">Jelszó megerősítése:</string>
+    <string name="beluska">Kiss Béla</string>
+    <string name="passTipp1">Jelszó először</string>
+    <string name="passTipp2">Jelszó másodszor</string>
+    <string name="cancel">Mégse</string>
+    <string name="Hello">Üdvözöllek az alkalmazásban!</string>
+    <string name="LoginSuccesfull">Sikeresen bejelentkeztél!</string>
+    <string name="logout">Kijelentkezés</string>
+    <string name="google_login_btn_text">Bejelentkezés Google fiókkal</string>
+    <string name="filmkep">Filmhez tartozo kep</string>
+    <string name="default_web_client_id">227232777268-6v72jgfg3dp9r7gpvr07rgb9q8ei0m9o.apps.googleusercontent.com</string>
+    <string name="movieTitlePlaceholder">Movie Title</string>
+    <string name="MovieImgPlaceholder">FilmKep</string>
+    <string name="movieDescPlaceholder">Leiras\n</string>
+    <string name="VetitesBtn">Vetítések listázása</string>
+    <string name="genre_placeholder">genre placeholder</string>
+    <string name="search_bar">search_bar</string>
+    <string name="rolunk">rolunk</string>
+    <string name="jegyeim">jegyeim</string>
+    <string name="vetitesek">Vetítések</string>
+    <string name="vetites_ideje">vetites ideje</string>
+    <string name="sz_kek_sz_ma">Székek száma:</string>
+    <string name="helyfoglalas">Helyfoglalas</string>
+    <string name="terem">Terem:</string>
+
+    <string-array name="movieNames">
+        <item>Dune: Part Two</item>
+        <item>Joker: Folie à Deux</item>
+        <item>A Quiet Place: Day One</item>
+        <item>Love Lies Bleeding</item>
+        <item>Furiosa: A Mad Max Saga</item>
+        <item>The Lord of the Rings: The War of the Rohirrim</item>
+        <item>Deadpool and Wolverine</item>
+        <item>Despicable Me 4</item>
+        <item>Spider-Man: Beyond the Spider-Verse</item>
+        <item>Beetlejuice Beetlejuice</item>
+    </string-array>
+
+    <string-array name="movie_desc">
+        <item>A fiatal Paul Atreides csatlakozik a Fremen néphez, hogy bosszút álljon a Harkonnen házon, és megváltoztassa az Arrakis sorsát.</item>
+        <item>A pszichológiai thrillerben Arthur Fleck, azaz Joker és Harley Quinn veszélyes kapcsolatba keverednek, ami Gotham városát is fenyegeti.</item>
+        <item>A csendes világban, ahol a zajos lények vadásznak az emberekre, egy nő megpróbálja túlélni az első támadást New York Cityben.</item>
+        <item>Egy edzőterem menedzsere és egy testépítő nő szenvedélyes kapcsolatba keveredik, ami gyilkosságok sorozatához vezet.</item>
+        <item>A fiatal Furiosa menekül egy zsarnok háborús úrtól, és visszatér szülőhazájába, miközben harcokkal teli útján szövetségesekre és ellenségekre talál.</item>
+        <item>A Rohan királyának, Helm Hammerhandnek a legendás története, aki megvédi királyságát a Dunlendings hadától.</item>
+        <item>Deadpool és Wolverine összefog, hogy legyőzzenek egy közös ellenséget, miközben Deadpool a multiverzum különböző pontjaira látogat.</item>
+        <item>Gru és családja, beleértve a legújabb tagot, Gru Jr.-t, szembesülnek Maxime Le Mal és barátnője, Valentina által okozott veszéllyel.</item>
+        <item>Miles Morales újra akcióban! Miután újra találkozik Gwen Stacyvel, Miles a multiverzumon keresztül száguld, hogy szembenézzen egy új, hatalmas ellenséggel, a Spot-tal. A kaland során számos másik Pók-emberrel is találkozik, de vajon sikerül-e megmentenie a multiverzumot?</item>
+        <item>A Deetz család három generációja visszatér Winter Riverbe, ahol Lydia lányának, Astridnek köszönhetően újra megnyílik a kapu a Túlvilágra.</item>
+    </string-array>
+
+
+    <string-array name="genre">
+        <item>Sci-Fi</item>
+        <item>Thriller</item>
+        <item>Horror</item>
+        <item>Thriller</item>
+        <item>Kaland</item>
+        <item>Animációs</item>
+        <item>Akció</item>
+        <item>Animációs</item>
+        <item>Animációs</item>
+        <item>Horror</item>
+    </string-array>
+    
+    
+
+
+    <array name="img">
+        <item>@drawable/dune2</item>
+        <item>@drawable/joker</item>
+        <item>@drawable/quiet</item>
+        <item>@drawable/lovelies</item>
+        <item>@drawable/madmax</item>
+        <item>@drawable/lotr</item>
+        <item>@drawable/deadpool</item>
+        <item>@drawable/despicable</item>
+        <item>@drawable/spider</item>
+        <item>@drawable/beetle</item>
+    </array>
+
+    <string-array name="vetit_movies">
+        <item>Dune: Part Two</item>
+        <item>Dune: Part Two</item>
+        <item>Dune: Part Two</item>
+        <item>Joker: Folie à Deux</item>
+        <item>Joker: Folie à Deux</item>
+        <item>Joker: Folie à Deux</item>
+        <item>A Quiet Place: Day One</item>
+        <item>A Quiet Place: Day One</item>
+        <item>A Quiet Place: Day One</item>
+        <item>Love Lies Bleeding</item>
+        <item>Love Lies Bleeding</item>
+        <item>Love Lies Bleeding</item>
+        <item>Furiosa: A Mad Max Saga</item>
+        <item>Furiosa: A Mad Max Saga</item>
+        <item>Furiosa: A Mad Max Saga</item>
+        <item>The Lord of the Rings: The War of the Rohirrim</item>
+        <item>The Lord of the Rings: The War of the Rohirrim</item>
+        <item>The Lord of the Rings: The War of the Rohirrim</item>
+        <item>Deadpool and Wolverine</item>
+        <item>Deadpool and Wolverine</item>
+        <item>Deadpool and Wolverine</item>
+        <item>Despicable Me 4</item>
+        <item>Despicable Me 4</item>
+        <item>Despicable Me 4</item>
+        <item>Spider-Man: Beyond the Spider-Verse</item>
+        <item>Spider-Man: Beyond the Spider-Verse</item>
+        <item>Spider-Man: Beyond the Spider-Verse</item>
+        <item>Beetlejuice Beetlejuice</item>
+        <item>Beetlejuice Beetlejuice</item>
+        <item>Beetlejuice Beetlejuice</item>
+    </string-array>
+
+    <string-array name="vetit_helyszin">
+        <!-- Dune: Part Two helyszínei -->
+        <item>Keleti terem</item>
+        <item>Nyugati terem</item>
+        <item>Déli terem</item>
+        <!-- Joker: Folie à Deux helyszínei -->
+        <item>Keleti terem</item>
+        <item>Nyugati terem</item>
+        <item>Déli terem</item>
+        <!-- A Quiet Place: Day One helyszínei -->
+        <item>Keleti terem</item>
+        <item>Nyugati terem</item>
+        <item>Déli terem</item>
+        <!-- Love Lies Bleeding helyszínei -->
+        <item>Keleti terem</item>
+        <item>Nyugati terem</item>
+        <item>Déli terem</item>
+        <!-- Furiosa: A Mad Max Saga helyszínei -->
+        <item>Keleti terem</item>
+        <item>Nyugati terem</item>
+        <item>Déli terem</item>
+        <!-- The Lord of the Rings: The War of the Rohirrim helyszínei -->
+        <item>Keleti terem</item>
+        <item>Nyugati terem</item>
+        <item>Déli terem</item>
+        <!-- Deadpool and Wolverine helyszínei -->
+        <item>Keleti terem</item>
+        <item>Nyugati terem</item>
+        <item>Déli terem</item>
+        <!-- Despicable Me 4 helyszínei -->
+        <item>Keleti terem</item>
+        <item>Nyugati terem</item>
+        <item>Déli terem</item>
+        <!-- Spider-Man: Beyond the Spider-Verse helyszínei -->
+        <item>Keleti terem</item>
+        <item>Nyugati terem</item>
+        <item>Déli terem</item>
+        <!-- Beetlejuice Beetlejuice helyszínei -->
+        <item>Keleti terem</item>
+        <item>Nyugati terem</item>
+        <item>Déli terem</item>
+    </string-array>
+
+
+    <array name="vetit_ido">
+        <!-- Dune: Part Two időpontjai -->
+        <item>2024-05-12 10:00</item>
+        <item>2024-05-12 12:00</item>
+        <item>2024-05-12 14:00</item>
+        <!-- Joker: Folie à Deux időpontjai -->
+        <item>2024-05-12 10:00</item>
+        <item>2024-05-12 12:00</item>
+        <item>2024-05-12 14:00</item>
+        <!-- A Quiet Place: Day One időpontjai -->
+        <item>2024-05-12 10:00</item>
+        <item>2024-05-12 12:00</item>
+        <item>2024-05-12 14:00</item>
+        <!-- Love Lies Bleeding időpontjai -->
+        <item>2024-05-12 10:00</item>
+        <item>2024-05-12 12:00</item>
+        <item>2024-05-12 14:00</item>
+        <!-- Furiosa: A Mad Max Saga időpontjai -->
+        <item>2024-05-12 10:00</item>
+        <item>2024-05-12 12:00</item>
+        <item>2024-05-12 14:00</item>
+        <!-- The Lord of the Rings: The War of the Rohirrim időpontjai -->
+        <item>2024-05-12 10:00</item>
+        <item>2024-05-12 12:00</item>
+        <item>2024-05-12 14:00</item>
+        <!-- Deadpool and Wolverine időpontjai -->
+        <item>2024-05-12 10:00</item>
+        <item>2024-05-12 12:00</item>
+        <item>2024-05-12 14:00</item>
+        <!-- Despicable Me 4 időpontjai -->
+        <item>2024-05-12 10:00</item>
+        <item>2024-05-12 12:00</item>
+        <item>2024-05-12 14:00</item>
+        <!-- Spider-Man: Beyond the Spider-Verse időpontjai -->
+        <item>2024-05-12 10:00</item>
+        <item>2024-05-12 12:00</item>
+        <item>2024-05-12 14:00</item>
+        <!-- Beetlejuice Beetlejuice időpontjai -->
+        <item>2024-05-12 10:00</item>
+        <item>2024-05-12 12:00</item>
+        <item>2024-05-12 14:00</item>
+    </array>
+
+
+
+</resources>

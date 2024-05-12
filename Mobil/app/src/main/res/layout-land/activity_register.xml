@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.RegisterActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/NevTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="5dp"
+       />
+
+    <EditText
+        android:id="@+id/registerNameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/beluska"
+        android:inputType="text"
+        android:autofillHints="name"
+        android:layout_below="@id/NevTextView"
+        />
+
+    <TextView
+        android:id="@+id/EmailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="5dp"
+        android:text="@string/EmailReg"
+        android:layout_below="@id/registerNameEditText"
+
+        />
+
+    <EditText
+        android:id="@+id/registerEmailEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/emailhint"
+        android:inputType="textEmailAddress"
+        android:autofillHints="emailAddress"
+        android:layout_below="@id/EmailTextView"
+
+        />
+
+    <EditText
+        android:id="@+id/registerPasswordEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PasswordTextView"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="5dp"
+        android:autofillHints="password"
+        android:ems="10"
+        android:hint="@string/passTipp1"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/registerPasswordAgainEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:autofillHints="password"
+        android:layout_below="@id/JelszoAgainTextView"
+        android:hint="@string/passTipp2"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/PasswordTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="5dp"
+        android:text="@string/JelReg"
+        android:layout_below="@id/registerEmailEditText"
+        />
+
+    <TextView
+        android:id="@+id/JelszoAgainTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="5dp"
+        android:text="@string/Jel2Reg"
+        android:layout_below="@id/registerPasswordEditText"
+
+        />
+
+    <LinearLayout
+        android:id="@+id/linearReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registerPasswordAgainEditText"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/RegButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+
+            android:text="@string/cancel" />
+
+    </LinearLayout>
+
+</RelativeLayout>

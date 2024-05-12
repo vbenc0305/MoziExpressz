@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "227232777268",
+    "project_id": "mozi-9f72c",
+    "storage_bucket": "mozi-9f72c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227232777268:android:ad387b9377af8d918cb661",
+        "android_client_info": {
+          "package_name": "bence.varga.mozijegy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227232777268-lerqn7dp0sp2ethm4g9arv8oipvrjv55.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bence.varga.mozijegy",
+            "certificate_hash": "69f2a5492c963d2364710e0fbb7bfada0f64903e"
+          }
+        },
+        {
+          "client_id": "227232777268-6v72jgfg3dp9r7gpvr07rgb9q8ei0m9o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEDKgPL90AD1v3_AA8gdeG5njqB_PdhtA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227232777268-6v72jgfg3dp9r7gpvr07rgb9q8ei0m9o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
